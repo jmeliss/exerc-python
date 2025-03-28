@@ -1,0 +1,10 @@
+print("perimetro de um trapezio")
+
+print("Digite a medida maior em cm")
+M = int(input())
+print("Digite a medida menor em cm")
+m = int(input())
+print("Digite o valor da medida que se repete")
+O = int(input())
+perimetro = M + m + (O * 2)
+print("Esse trapézio tem o perimetro de: ", perimetro, "cm.")
