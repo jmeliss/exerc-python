@@ -1,0 +1,10 @@
+print("PERIMETRO DE UM TRIANGULO")
+
+print("Digite o valor da medida A")
+medidaA = int(input())
+print("Digite o valor da medida B")
+medidaB = int(input())
+print("Digite o valor da medida C")
+medidaC= int(input())
+perimetro= (medidaA + medidaB + medidaC)
+print("O perimetro desse triangulo é: ", perimetro)
